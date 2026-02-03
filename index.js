@@ -5,7 +5,7 @@ const dotenv = require("dotenv");
 dotenv.config();
 
 app.get("/", (req, res) => {
-    res.send("Hello from POC15 Server, using rehost strategy");
+    res.send("Hello from POC15 Server, using rehost strategy x");
 })
 
 const PORT = process.env.PORT;
